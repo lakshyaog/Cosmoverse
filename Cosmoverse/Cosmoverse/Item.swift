@@ -4,17 +4,4 @@
 //
 //  Created by Lakshya Solanki on 19/05/25.
 //
-
-import Foundation
-import SwiftData
-
-@Model
-final class Item {
-    var title: String
-    var timestamp: Date
-    
-    init(title: String, timestamp: Date) {
-        self.title = title
-        self.timestamp = timestamp
-    }
-}
+// This file is kept for reference but is not used in the current app architecture
