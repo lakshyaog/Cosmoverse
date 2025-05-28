@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A38FA2AF2DDB9CF90002DD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38FA2972DDB9CF70002DD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38FA29E2DDB9CF70002DD4F;
+			remoteInfo = Cosmoverse;
+		};
+		A38FA2B92DDB9CF90002DD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38FA2972DDB9CF70002DD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38FA29E2DDB9CF70002DD4F;
+			remoteInfo = Cosmoverse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A38FA29F2DDB9CF70002DD4F /* Cosmoverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cosmoverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38FA2AE2DDB9CF90002DD4F /* CosmoverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmoverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38FA2B82DDB9CF90002DD4F /* CosmoverseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmoverseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A3FE3D762DDC64E8004A6F86 /* Exceptions for "Cosmoverse" folder in "Cosmoverse" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Untitled.swift,
+			);
+			target = A38FA29E2DDB9CF70002DD4F /* Cosmoverse */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A38FA2A12DDB9CF70002DD4F /* Cosmoverse */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A3FE3D762DDC64E8004A6F86 /* Exceptions for "Cosmoverse" folder in "Cosmoverse" target */,
+			);
+			path = Cosmoverse;
+			sourceTree = "<group>";
+		};
+		A38FA2B12DDB9CF90002DD4F /* CosmoverseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CosmoverseTests;
+			sourceTree = "<group>";
+		};
+		A38FA2BB2DDB9CF90002DD4F /* CosmoverseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CosmoverseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38FA29C2DDB9CF70002DD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38FA2AB2DDB9CF90002DD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38FA2B52DDB9CF90002DD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A38FA2962DDB9CF70002DD4F = {
+			isa = PBXGroup;
+			children = (
+				A38FA2A12DDB9CF70002DD4F /* Cosmoverse */,
+				A38FA2B12DDB9CF90002DD4F /* CosmoverseTests */,
+				A38FA2BB2DDB9CF90002DD4F /* CosmoverseUITests */,
+				A38FA2A02DDB9CF70002DD4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A38FA2A02DDB9CF70002DD4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A38FA29F2DDB9CF70002DD4F /* Cosmoverse.app */,
+				A38FA2AE2DDB9CF90002DD4F /* CosmoverseTests.xctest */,
+				A38FA2B82DDB9CF90002DD4F /* CosmoverseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38FA29E2DDB9CF70002DD4F /* Cosmoverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38FA2C22DDB9CF90002DD4F /* Build configuration list for PBXNativeTarget "Cosmoverse" */;
+			buildPhases = (
+				A38FA29B2DDB9CF70002DD4F /* Sources */,
+				A38FA29C2DDB9CF70002DD4F /* Frameworks */,
+				A38FA29D2DDB9CF70002DD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A38FA2A12DDB9CF70002DD4F /* Cosmoverse */,
+			);
+			name = Cosmoverse;
+			packageProductDependencies = (
+			);
+			productName = Cosmoverse;
+			productReference = A38FA29F2DDB9CF70002DD4F /* Cosmoverse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A38FA2AD2DDB9CF90002DD4F /* CosmoverseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38FA2C52DDB9CF90002DD4F /* Build configuration list for PBXNativeTarget "CosmoverseTests" */;
+			buildPhases = (
+				A38FA2AA2DDB9CF90002DD4F /* Sources */,
+				A38FA2AB2DDB9CF90002DD4F /* Frameworks */,
+				A38FA2AC2DDB9CF90002DD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38FA2B02DDB9CF90002DD4F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A38FA2B12DDB9CF90002DD4F /* CosmoverseTests */,
+			);
+			name = CosmoverseTests;
+			packageProductDependencies = (
+			);
+			productName = CosmoverseTests;
+			productReference = A38FA2AE2DDB9CF90002DD4F /* CosmoverseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A38FA2B72DDB9CF90002DD4F /* CosmoverseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38FA2C82DDB9CF90002DD4F /* Build configuration list for PBXNativeTarget "CosmoverseUITests" */;
+			buildPhases = (
+				A38FA2B42DDB9CF90002DD4F /* Sources */,
+				A38FA2B52DDB9CF90002DD4F /* Frameworks */,
+				A38FA2B62DDB9CF90002DD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38FA2BA2DDB9CF90002DD4F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A38FA2BB2DDB9CF90002DD4F /* CosmoverseUITests */,
+			);
+			name = CosmoverseUITests;
+			packageProductDependencies = (
+			);
+			productName = CosmoverseUITests;
+			productReference = A38FA2B82DDB9CF90002DD4F /* CosmoverseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38FA2972DDB9CF70002DD4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					A38FA29E2DDB9CF70002DD4F = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					A38FA2AD2DDB9CF90002DD4F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A38FA29E2DDB9CF70002DD4F;
+					};
+					A38FA2B72DDB9CF90002DD4F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A38FA29E2DDB9CF70002DD4F;
+					};
+				};
+			};
+			buildConfigurationList = A38FA29A2DDB9CF70002DD4F /* Build configuration list for PBXProject "Cosmoverse" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A38FA2962DDB9CF70002DD4F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A38FA2A02DDB9CF70002DD4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38FA29E2DDB9CF70002DD4F /* Cosmoverse */,
+				A38FA2AD2DDB9CF90002DD4F /* CosmoverseTests */,
+				A38FA2B72DDB9CF90002DD4F /* CosmoverseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38FA29D2DDB9CF70002DD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38FA2AC2DDB9CF90002DD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38FA2B62DDB9CF90002DD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A38FA29B2DDB9CF70002DD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38FA2AA2DDB9CF90002DD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38FA2B42DDB9CF90002DD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A38FA2B02DDB9CF90002DD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A38FA29E2DDB9CF70002DD4F /* Cosmoverse */;
+			targetProxy = A38FA2AF2DDB9CF90002DD4F /* PBXContainerItemProxy */;
+		};
+		A38FA2BA2DDB9CF90002DD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A38FA29E2DDB9CF70002DD4F /* Cosmoverse */;
+			targetProxy = A38FA2B92DDB9CF90002DD4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A38FA2C02DDB9CF90002DD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A38FA2C12DDB9CF90002DD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38FA2C32DDB9CF90002DD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJ5344A66L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to display planets in augmented reality";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lakshya.Cosmoverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A38FA2C42DDB9CF90002DD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJ5344A66L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to display planets in augmented reality";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lakshya.Cosmoverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A38FA2C62DDB9CF90002DD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lakshya.CosmoverseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cosmoverse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cosmoverse";
+			};
+			name = Debug;
+		};
+		A38FA2C72DDB9CF90002DD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lakshya.CosmoverseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cosmoverse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cosmoverse";
+			};
+			name = Release;
+		};
+		A38FA2C92DDB9CF90002DD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lakshya.CosmoverseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cosmoverse;
+			};
+			name = Debug;
+		};
+		A38FA2CA2DDB9CF90002DD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lakshya.CosmoverseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cosmoverse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38FA29A2DDB9CF70002DD4F /* Build configuration list for PBXProject "Cosmoverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38FA2C02DDB9CF90002DD4F /* Debug */,
+				A38FA2C12DDB9CF90002DD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38FA2C22DDB9CF90002DD4F /* Build configuration list for PBXNativeTarget "Cosmoverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38FA2C32DDB9CF90002DD4F /* Debug */,
+				A38FA2C42DDB9CF90002DD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38FA2C52DDB9CF90002DD4F /* Build configuration list for PBXNativeTarget "CosmoverseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38FA2C62DDB9CF90002DD4F /* Debug */,
+				A38FA2C72DDB9CF90002DD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38FA2C82DDB9CF90002DD4F /* Build configuration list for PBXNativeTarget "CosmoverseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38FA2C92DDB9CF90002DD4F /* Debug */,
+				A38FA2CA2DDB9CF90002DD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A38FA2972DDB9CF70002DD4F /* Project object */;
+}
